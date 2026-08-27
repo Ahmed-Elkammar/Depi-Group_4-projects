@@ -7,11 +7,9 @@ class Hospital:
         name (str): The name of the hospital.
         location (str): The location/address of the hospital.
         departments (list): List of registered Department instances.
-    
     """
     def __init__(self, name, location):
         """
-        
         Initialize a new Hospital instance.
 
         Args:
@@ -21,7 +19,6 @@ class Hospital:
         Raises:
             ValueError: If `name` is empty or contains non-alphabetic characters.
             ValueError: If `location` is empty or consists solely of whitespace.
-        
         """
 
         if not name or not name.replace(" ","").isalpha():
@@ -42,8 +39,6 @@ class Hospital:
             Raises:
             TypeError: If `department` is not an instance of the `Department` class.
             ValueError: If a department with the same name already exists in the hospital (case-insensitive).
-        
-        
         """
         if not isinstance(department, Department):
             raise TypeError("Expected an instance of Department.")
