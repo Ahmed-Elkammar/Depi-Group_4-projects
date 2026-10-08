@@ -1,0 +1,25 @@
+{
+  "model": "Decision Tree (max_depth=6)",
+  "best_params": {
+    "max_depth": 6
+  },
+  "cv_r2": 0.7798,
+  "test_r2": 0.7878,
+  "test_mae": 52509.29,
+  "test_rmse": 75987.97,
+  "n_train": 391,
+  "feature_ranges": {
+    "RM": [
+      3.561,
+      8.398
+    ],
+    "LSTAT": [
+      1.98,
+      37.97
+    ],
+    "PTRATIO": [
+      12.6,
+      22.0
+    ]
+  }
+}
